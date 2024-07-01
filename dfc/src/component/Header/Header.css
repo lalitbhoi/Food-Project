@@ -1,0 +1,46 @@
+.header {
+    height: 34vw;
+    margin: 30px auto;
+    background: url('/public/header_img.png') no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 1250px;
+    margin: 0 auto;
+    
+  }
+  .app{
+    width: 1250px;
+    margin: 0 auto;
+  }
+  .header-content{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.5vw;
+    max-width: 50%;
+    bottom: 10%;
+    left: 6vw;
+    color: aliceblue;
+    animation: fadein 3s;
+
+  } 
+  .header-content button{
+    background: transparent;
+    font-size: 12px;
+    color: #49557e;
+    border: none;
+    background-color: aliceblue;
+    padding: 10px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .header-content h2{
+    font-size: 50px;
+    font-weight: 500;
+  }
+  .header-content p{
+    font-size: 16px;
+  }
+

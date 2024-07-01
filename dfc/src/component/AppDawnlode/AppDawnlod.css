@@ -1,0 +1,23 @@
+.app-dawnload{
+    width: 1250px;
+    margin: 0 auto;
+    padding-top: 80px;
+    margin: auto auto;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 500;
+}
+.app-dawnload-platforms{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.app-dawnload-platforms img{
+    width: 180px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.app-dawnload-platforms img:hover{
+    transform: scale(1.05);
+}
